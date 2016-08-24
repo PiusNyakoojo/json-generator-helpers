@@ -52,7 +52,7 @@
   	// capitalize the first characters of each word
   	title = title.replace(/\b\w/g, function(l){ return l.toUpperCase();});
   
-  	return title;
+  	return title; // e.g. "Id Reprehenderit Laborum Aliquip Consequat Laborum"
   }
 }
 ```
