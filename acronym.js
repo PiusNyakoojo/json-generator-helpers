@@ -6,7 +6,11 @@ function() {
 	var acronym = "";
 
 	for (var i = 0; i < words.length; i++) {
-		acronym += words[i].charAt(0).toUpperCase();
+		acronym += words[i].charAt(0);
+	}
+
+	if (isUppercase) {
+		acronym = acronym.toUpperCase();
 	}
 
 	return acronym;

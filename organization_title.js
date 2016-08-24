@@ -7,10 +7,10 @@ function() {
 	// remove random amount of words
 	words = words.splice(0, amount || 0);
 
-	// concatenate word together
+	// concatenate words together
 	var title = "";
 	for (var i = 0; i < words.length; i++) {
-		title += words[i] + " "; 
+		title += words[i] + " ";
 	}
 
 	// remove last space character
